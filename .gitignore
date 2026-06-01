@@ -1,0 +1,10 @@
+# Pencil export scratch / working files
+output/
+
+# Loose design exports and screenshots at repo root
+/image.png
+/Screenshot*.png
+/assets/
+
+# OS / editor cruft
+.DS_Store

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedro Sanders — It's time to rethink how voice is built</title>
+  <meta name="description" content="I help engineers and operators ship modern Voice AI without drowning in legacy stacks. Join 8,000+ builders getting one hard-won lesson every week.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- OpenGraph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pedrosanders.me/">
+  <meta property="og:title" content="Pedro Sanders — It's time to rethink how voice is built">
+  <meta property="og:description" content="I help engineers and operators ship modern Voice AI without drowning in legacy stacks. Join 8,000+ builders getting one hard-won lesson every week.">
+  <meta property="og:image" content="https://pedrosanders.me/assets/og-banner.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pedro Sanders — It's time to rethink how voice is built">
+  <meta name="twitter:description" content="I help engineers and operators ship modern Voice AI without drowning in legacy stacks.">
+  <meta name="twitter:image" content="https://pedrosanders.me/assets/og-banner.png">
+</head>
+<body>
+  <!-- ═══════════════ NAV ═══════════════ -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="brand" aria-label="Pedro Sanders — home">
+        <span class="brand__mark">ps</span>
+        <span class="brand__name">Pedro Sanders</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#writing">Writing</a>
+        <a href="#offers">Offers</a>
+        <a href="#newsletter">Newsletter</a>
+        <a href="#" data-contact>Contact</a>
+      </nav>
+
+      <a href="#newsletter" class="btn btn--dark nav__cta">
+        Join the newsletter
+        <i data-lucide="arrow-right"></i>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ═══════════════ HERO ═══════════════ -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <span class="badge">
+            <span class="badge__dot"></span>
+            Founder · Fonoster · Voice AI
+          </span>
+          <h1 class="hero__title">It's time to rethink how voice is built.</h1>
+          <p class="hero__sub">I help engineers and operators ship modern Voice AI without drowning in legacy stacks. Join 8,000+ builders getting one hard-won lesson every week.</p>
+
+          <form class="signup signup--light" data-newsletter>
+            <label class="field">
+              <i data-lucide="mail"></i>
+              <input type="email" name="email" placeholder="tu@email.com" required>
+            </label>
+            <button type="submit" class="btn btn--dark signup__btn">
+              <span class="signup__label">Start here</span>
+              <i data-lucide="arrow-right" class="signup__icon"></i>
+            </button>
+          </form>
+          <p class="signup__note signup__note--muted">
+            <i data-lucide="check"></i>
+            Free. One email per week. Unsubscribe anytime.
+          </p>
+        </div>
+
+        <div class="hero__visual">
+          <div class="hero__card">
+            <img src="assets/headshot.png" alt="Pedro Sanders" class="hero__headshot">
+          </div>
+          <div class="hero__glow" aria-hidden="true"></div>
+          <div class="hero__ring" aria-hidden="true"></div>
+          <div class="float-card float-card--stat">
+            <span class="float-card__big">8,000+</span>
+            <span class="mono float-card__cap">BUILDERS READING</span>
+          </div>
+          <div class="float-card float-card--tag">
+            <span class="float-card__icon"><i data-lucide="sparkles"></i></span>
+            <span>
+              <span class="float-card__title">Voice AI · 2026</span>
+              <span class="mono float-card__sub">Build what's next</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ COMMUNITY ═══════════════ -->
+    <section class="community">
+      <div class="container community__inner">
+        <span class="mono community__eyebrow">JOIN THE COMMUNITY</span>
+        <div class="community__channels">
+          <a href="#" class="channel" aria-label="GitHub"><i class="ph ph-github-logo"></i> <span class="channel__label">GitHub</span></a>
+          <a href="#" class="channel" aria-label="Discord"><i class="ph ph-discord-logo"></i> <span class="channel__label">Discord</span></a>
+          <a href="#" class="channel" aria-label="YouTube"><i class="ph ph-youtube-logo"></i> <span class="channel__label">YouTube</span></a>
+          <a href="#" class="channel" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i> <span class="channel__label">LinkedIn</span></a>
+          <a href="#" class="channel" aria-label="X"><i class="ph ph-twitter-logo"></i> <span class="channel__label">X</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ ABOUT ═══════════════ -->
+    <section class="about" id="about">
+      <div class="container about__inner">
+        <div class="about__aside">
+          <span class="mono section-eyebrow">01 / ABOUT</span>
+          <h2 class="about__name">Hi — I'm Pedro.</h2>
+          <span class="rule"></span>
+        </div>
+        <div class="about__body">
+          <p class="about__lead">I help engineers and operators ship modern Voice AI — without drowning in the legacy stack.</p>
+          <p>For 15 years I've worked at the edge of communications infrastructure — SIP, RTP, media servers, and now Voice AI. I built Routr because the open-source telephony stack needed something easier to operate. I'm now building Fonoster to make programmable voice approachable for the next million developers.</p>
+          <p>Most companies don't need an entire PBX to ship a great voice experience. They need clarity. They need patterns that work. They need someone who's been on the other end of a 3 AM Asterisk crash and lived to tell about it.</p>
+          <p>That's what I write about. That's what I teach. And it's why 8,000+ builders open my emails every week.</p>
+          <a href="#" data-contact class="link-arrow">More about me <i data-lucide="arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ LEAD MAGNET ═══════════════ -->
+    <section class="lead">
+      <div class="container lead__inner">
+        <div class="lead__text">
+          <span class="mono section-eyebrow">FREE · 1-PAGE GUIDE</span>
+          <h2 class="lead__title">Start with The Voice AI Stack — one page that maps how modern voice systems actually fit together.</h2>
+          <p class="lead__body">From the carrier edge to LLMs. SIP, media, ASR, TTS, agent orchestration — what they do, what they don't, and how to pick.</p>
+          <div class="lead__cta">
+            <a href="#newsletter" class="btn btn--dark">
+              <i data-lucide="download"></i>
+              Send me the PDF
+            </a>
+            <span class="mono lead__count">4,200 downloads</span>
+          </div>
+        </div>
+
+        <div class="lead__visual" aria-hidden="true">
+          <div class="lead__glow"></div>
+          <div class="stack-card">
+            <span class="mono stack-card__eyebrow">THE VOICE AI STACK</span>
+            <h3 class="stack-card__title">A field map for builders</h3>
+            <ul class="stack-card__rows">
+              <li class="stack-row stack-row--dark"><span>App / Agent</span><i data-lucide="arrow-right"></i></li>
+              <li class="stack-row stack-row--mid"><span>Orchestration</span><i data-lucide="arrow-right"></i></li>
+              <li class="stack-row stack-row--mint"><span>LLM · ASR · TTS</span><i data-lucide="arrow-right"></i></li>
+              <li class="stack-row stack-row--teal"><span>Bidirectional Streams</span><i data-lucide="arrow-right"></i></li>
+              <li class="stack-row stack-row--orange"><span>SIP / Carrier</span><i data-lucide="arrow-right"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ OFFERS ═══════════════ -->
+    <section class="offers" id="offers">
+      <div class="container">
+        <div class="offers__header">
+          <span class="mono section-eyebrow">02 / OFFERS</span>
+          <div class="offers__headline">
+            <h2 class="section-title">Three ways to work with me.</h2>
+            <p class="offers__desc">From a $49 handbook to a hands-on embed — built from real production incidents, not slides.</p>
+          </div>
+        </div>
+
+        <div class="offers__scroll">
+          <!-- Featured -->
+          <article class="offer offer--featured">
+            <div class="offer__top">
+              <div class="offer__eyebrow-row">
+                <span class="mono offer__eyebrow">BOOK · PDF + EPUB</span>
+                <span class="mono offer__pill">Start here</span>
+              </div>
+              <h3 class="offer__title">Routr's Operators Handbook</h3>
+              <p class="offer__desc">The missing manual for running Routr in production. Topology patterns, scaling, observability, and the failure modes nobody writes about.</p>
+              <div class="offer__chips">
+                <span class="mono chip">280 pages</span>
+                <span class="mono chip">Lifetime updates</span>
+                <span class="mono chip">Discord access</span>
+              </div>
+            </div>
+            <div class="offer__divider"></div>
+            <div class="offer__foot">
+              <div class="offer__price">
+                <span class="offer__amount">$49</span>
+                <span class="mono offer__price-label">one-time</span>
+              </div>
+              <a href="#" class="btn btn--orange">Get it <i data-lucide="arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Roadmap -->
+          <article class="offer">
+            <div class="offer__top">
+              <div class="offer__eyebrow-row">
+                <span class="mono offer__eyebrow">WORKING SESSIONS · LIVE</span>
+              </div>
+              <h3 class="offer__title">Voice AI Infrastructure Roadmap</h3>
+              <p class="offer__desc">Three sessions. You walk away with a documented plan for what to build, what to skip, and in what order.</p>
+              <div class="offer__chips">
+                <span class="mono chip chip--light">3 sessions</span>
+                <span class="mono chip chip--light">Written roadmap</span>
+                <span class="mono chip chip--light">~2–3 weeks</span>
+              </div>
+            </div>
+            <div class="offer__divider"></div>
+            <div class="offer__foot">
+              <div class="offer__price">
+                <span class="offer__amount">$1,200</span>
+                <span class="mono offer__price-label">one-time</span>
+              </div>
+              <a href="roadmap.html" class="btn btn--dark">See how it works <i data-lucide="arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Embed -->
+          <article class="offer">
+            <div class="offer__top">
+              <div class="offer__eyebrow-row">
+                <span class="mono offer__eyebrow">EMBED · BY APPLICATION</span>
+              </div>
+              <h3 class="offer__title">The Embed</h3>
+              <p class="offer__desc">I join your team to architect and de-risk your voice infrastructure — as the person who's actually built one at scale.</p>
+              <div class="offer__chips">
+                <span class="mono chip chip--light">Fixed scope</span>
+                <span class="mono chip chip--light">8–12 weeks</span>
+                <span class="mono chip chip--light">1–2 at a time</span>
+              </div>
+            </div>
+            <div class="offer__divider"></div>
+            <div class="offer__foot">
+              <div class="offer__price">
+                <span class="offer__amount">$15K</span>
+                <span class="mono offer__price-label">starting</span>
+              </div>
+              <a href="embed.html" class="btn btn--dark">Request a conversation <i data-lucide="arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <div class="offers__dots" aria-hidden="true">
+          <span class="dot dot--active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ WRITING ═══════════════ -->
+    <section class="writing" id="writing">
+      <div class="container">
+        <div class="writing__header">
+          <div class="writing__heading">
+            <span class="mono section-eyebrow">03 / WRITING</span>
+            <h2 class="section-title">Recent essays.</h2>
+          </div>
+          <a href="#" class="link-arrow">Read all essays <i data-lucide="arrow-right"></i></a>
+        </div>
+
+        <div class="writing__grid">
+          <article class="article">
+            <span class="article__accent" style="background:#39e19e"></span>
+            <div class="article__meta">
+              <span class="mono article__cat">INFRASTRUCTURE</span>
+              <span class="mono article__dot">·</span>
+              <span class="mono article__date">Nov 12 · 6 min</span>
+            </div>
+            <h3 class="article__title">KARMA was right. Until it wasn't.</h3>
+            <p class="article__desc">At millions of calls a day, the cracks in the classic voice stack show — and why I'm choosing less in 2026.</p>
+            <a href="#" class="link-arrow link-arrow--sm">Read essay <i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="article">
+            <span class="article__accent" style="background:#ff9965"></span>
+            <div class="article__meta">
+              <span class="mono article__cat">AI</span>
+              <span class="mono article__dot">·</span>
+              <span class="mono article__date">Nov 4 · 5 min</span>
+            </div>
+            <h3 class="article__title">Stop pitching the demo. Ship the outcome.</h3>
+            <p class="article__desc">Most Voice AI demos are theater. Here's what actually matters when a real customer answers.</p>
+            <a href="#" class="link-arrow link-arrow--sm">Read essay <i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="article">
+            <span class="article__accent" style="background:#5fcfce"></span>
+            <div class="article__meta">
+              <span class="mono article__cat">BUILDING</span>
+              <span class="mono article__dot">·</span>
+              <span class="mono article__date">Oct 28 · 8 min</span>
+            </div>
+            <h3 class="article__title">Why Routr is boring (on purpose).</h3>
+            <p class="article__desc">A SIP server should be invisible. The lessons from 4 years of building one in the open.</p>
+            <a href="#" class="link-arrow link-arrow--sm">Read essay <i data-lucide="arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ NEWSLETTER CTA ═══════════════ -->
+    <section class="newsletter" id="newsletter">
+      <div class="container newsletter__inner">
+        <span class="mono newsletter__eyebrow">04 / NEWSLETTER</span>
+        <h2 class="newsletter__title">One email. Every Saturday.<br>No fluff. Just signal.</h2>
+        <p class="newsletter__sub">Join 8,000+ engineers and operators reading one hard-won lesson from inside the voice and AI trenches.</p>
+
+        <form class="signup signup--dark" data-newsletter>
+          <label class="field">
+            <i data-lucide="mail"></i>
+            <input type="email" name="email" placeholder="tu@email.com" required>
+          </label>
+          <button type="submit" class="btn btn--mint signup__btn">
+            <span class="signup__label">Subscribe</span>
+            <i data-lucide="arrow-right" class="signup__icon"></i>
+          </button>
+        </form>
+        <p class="signup__note signup__note--ondark">
+          <i data-lucide="shield"></i>
+          I'll never spam or sell your info. Ever.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <a href="#top" class="brand">
+          <span class="brand__mark">ps</span>
+          <span class="brand__name">Pedro Sanders</span>
+        </a>
+        <nav class="footer__links" aria-label="Footer">
+          <a href="#about">About</a>
+          <a href="#writing">Writing</a>
+          <a href="#offers">Offers</a>
+          <a href="#newsletter">Newsletter</a>
+          <a href="#" data-contact>Contact</a>
+          <a href="#">Privacy</a>
+        </nav>
+        <div class="footer__social">
+          <a href="#" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+          <a href="#" aria-label="X"><i class="ph ph-twitter-logo"></i></a>
+          <a href="#" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+          <a href="#" aria-label="YouTube"><i class="ph ph-youtube-logo"></i></a>
+        </div>
+      </div>
+      <div class="footer__divider"></div>
+      <div class="footer__bottom">
+        <span class="mono">© 2026 Pedro Sanders. Made with stubborn optimism.</span>
+        <span class="mono">Built in San Salvador · Lima · everywhere</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════ CONTACT MODAL ═══════════════ -->
+  <div class="modal" id="contactModal" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" data-close aria-label="Close"><i data-lucide="x"></i></button>
+      <div class="modal__icon"><i data-lucide="mail"></i></div>
+      <h2 class="modal__title" id="modalTitle">Let's talk.</h2>
+      <p class="modal__text">Reach me directly — I read every message.</p>
+      <button class="modal__email" id="copyEmail" type="button">
+        <span>pedrosanders@fonoster.com</span>
+        <i data-lucide="copy"></i>
+      </button>
+      <a class="btn btn--dark modal__mailto" href="mailto:pedrosanders@fonoster.com">
+        Open email <i data-lucide="arrow-right"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- ═══════════════ SCRIPTS ═══════════════ -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="main.js"></script>
+</body>
+</html>
