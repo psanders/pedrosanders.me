@@ -722,6 +722,13 @@ i[data-lucide] { display: inline-flex; }
   .lead__visual { display: none; }
   .offers__headline { flex-direction: column; align-items: flex-start; gap: 16px; }
   .writing__grid { grid-template-columns: repeat(2, 1fr); }
+
+  /* offer pages */
+  .walk { flex-direction: column; align-items: flex-start; gap: 40px; }
+  .doc-card { align-self: center; }
+  .sessions { grid-template-columns: 1fr; }
+  .whofor { grid-template-columns: 1fr; }
+  .price-band { flex-direction: column; align-items: flex-start; gap: 28px; }
 }
 
 @media (max-width: 768px) {
@@ -761,6 +768,15 @@ i[data-lucide] { display: inline-flex; }
 
   .footer__top { flex-direction: column; align-items: flex-start; gap: 24px; }
   .footer__bottom { flex-direction: column; align-items: flex-start; gap: 8px; }
+
+  /* offer pages */
+  .op-hero { padding: 56px 0 40px; }
+  .op-hero--dark { padding: 64px 0; }
+  .op-section, .op-section--dark, .op-section--mint, .op-section--soft { padding: 56px 0; }
+  .faq-row { flex-direction: column; gap: 10px; }
+  .faq-row__q { width: 100%; }
+  .howstart { flex-direction: column; align-items: flex-start; padding: 28px; }
+  .price-band { padding: 32px; }
 }
 
 /* ═══════════════ LUCIDE ICON FIXES ═══════════════ */

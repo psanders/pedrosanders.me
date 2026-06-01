@@ -15,11 +15,22 @@ python3 -m http.server 4317
 
 | File | Purpose |
 | --- | --- |
-| `index.html` | Single-page markup. Lucide icons via CDN; brand logos (GitHub/Discord/X/LinkedIn/YouTube) are inline SVGs in the sprite at the top of `<body>` (Lucide dropped brand icons from core). |
+| `index.html` | Landing page (hero, community, about, lead magnet, offers, writing, newsletter). |
+| `roadmap.html` | Offer detail page — "Voice AI Infrastructure Roadmap" ($1,200). |
+| `embed.html` | Offer detail page — "The Embed" (from $15K). |
 | `styles.css` | All styling + responsive rules (breakpoints at 980px and 768px). |
 | `main.js` | Newsletter submit, contact modal, copy-email, mobile offers carousel dots. |
-| `assets/` | `favicon.svg`, `headshot.svg` (placeholder — replace with a real photo named `headshot.png` and update the `<img src>` in the hero). |
+| `assets/` | `favicon.svg`, `headshot.png` (exported from the Pencil design). |
 | `CNAME` | `pedrosanders.me` for GitHub Pages. |
+
+### Icons
+Two icon sets, both via CDN:
+- **Lucide** (`<i data-lucide="…">`, replaced by `lucide.createIcons()`) for UI glyphs
+  (mail, arrow, check, x, map, sparkles…). Lucide renders an `<svg class="lucide"
+  stroke="currentColor">`, so size/color are set on `.lucide`, not `i`.
+- **Phosphor** (`<i class="ph ph-…-logo">`, web font) for brand logos
+  (GitHub/Discord/YouTube/LinkedIn/X) — matches the Pencil design. Lucide no longer
+  ships brand icons.
 
 ## Newsletter → Google Sheet (Apps Script)
 
@@ -45,7 +56,8 @@ endpoint is set, the buttons show "Coming soon".
 ## Placeholders to finalize
 
 - Social links — all `href="#"` (nav community row + footer). Drop in real URLs.
-- Headshot image (`assets/headshot.svg` → real photo).
 - `assets/og-banner.png` (1200×630) referenced by OpenGraph/Twitter meta.
-- Offer / essay / "Read all essays" / "More about me" links.
+- Essay / "Read all essays" / "More about me" links, and the $49 Handbook "Get it" link.
+- Offer-page CTAs ("Book the Roadmap", "Request a conversation") currently open the
+  contact modal — swap to a payment/booking link when ready.
 - Contact email is `pedrosanders@fonoster.com` (in the modal + `CONTACT_EMAIL` in `main.js`).
