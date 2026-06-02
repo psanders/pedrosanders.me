@@ -5,7 +5,7 @@
 // Google Apps Script web app URL for newsletter signups.
 // Deploy a Google Apps Script bound to a Sheet (doPost appends a row),
 // then paste the /exec URL here.
-const NEWSLETTER_URL = "";
+const NEWSLETTER_URL = "https://script.google.com/macros/s/AKfycbx6293GdHbIDtVSposlXJCNEsAcUXdBH3nNqxx5yyJHr5KpN9GmzUd0j_PO-V7UMEz7/exec";
 
 // Contact email shown in the modal.
 const CONTACT_EMAIL = "pedrosanders@fonoster.com";
@@ -17,6 +17,21 @@ const CONTACT_EMAIL = "pedrosanders@fonoster.com";
   if (window.lucide) lucide.createIcons();
 
   // ── Newsletter forms ───────────────────────────────────────
+  function showSuccess(form) {
+    const onDark = form.classList.contains("signup--dark");
+    const msg = document.createElement("div");
+    msg.className = "signup__success" + (onDark ? " signup__success--ondark" : "");
+    msg.setAttribute("role", "status");
+    msg.innerHTML =
+      '<i data-lucide="check-circle"></i>' +
+      "<span>You're in — thanks for subscribing! Look out for your first email this Saturday.</span>";
+    // Replace the form (and its helper note, if any) with the confirmation.
+    const note = form.nextElementSibling;
+    if (note && note.classList.contains("signup__note")) note.remove();
+    form.replaceWith(msg);
+    if (window.lucide) lucide.createIcons();
+  }
+
   document.querySelectorAll("[data-newsletter]").forEach(function (form) {
     form.addEventListener("submit", async function (e) {
       e.preventDefault();
@@ -32,18 +47,21 @@ const CONTACT_EMAIL = "pedrosanders@fonoster.com";
 
       try {
         if (!NEWSLETTER_URL) throw new Error("not-configured");
+        // Apps Script web apps don't return CORS headers, so we fire the
+        // request in no-cors mode (text/plain avoids a preflight) and treat
+        // a resolved fetch as success.
         await fetch(NEWSLETTER_URL, {
           method: "POST",
+          mode: "no-cors",
+          headers: { "Content-Type": "text/plain;charset=utf-8" },
           body: JSON.stringify({ email: email, source: "pedrosanders.me" })
         });
-        if (label) label.textContent = "Subscribed ✓";
-        form.reset();
+        showSuccess(form);
       } catch (err) {
         if (label) label.textContent = err.message === "not-configured" ? "Coming soon" : "Try again";
-      } finally {
+        btn.disabled = false;
         setTimeout(function () {
           if (label) label.textContent = original;
-          btn.disabled = false;
         }, 2600);
       }
     });

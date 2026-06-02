@@ -237,6 +237,30 @@ i[data-lucide] { display: inline-flex; }
 .signup__note--muted { color: var(--muted); }
 .signup__note--ondark { color: var(--muted-dark); justify-content: center; }
 
+.signup__success {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 560px;
+  margin-top: 8px;
+  padding: 18px 22px;
+  border-radius: 14px;
+  border: 1.5px solid var(--green-900);
+  background: var(--white);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--green-900);
+}
+.signup__success i { width: 20px; height: 20px; color: var(--mint); flex-shrink: 0; }
+.signup__success--ondark {
+  margin-inline: auto;
+  border-color: var(--mint);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--white);
+}
+
 /* hero visual */
 .hero__visual {
   position: relative;
