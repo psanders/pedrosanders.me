@@ -27,6 +27,35 @@ const CONTACT_EMAIL = "pedrosanders@fonoster.com";
     });
   });
 
+  // ── Mobile menu ────────────────────────────────────────────
+  const navToggle = document.querySelector(".nav__toggle");
+  const mobileMenu = document.getElementById("mobileMenu");
+  if (navToggle && mobileMenu) {
+    function setMenu(open) {
+      mobileMenu.hidden = !open;
+      navToggle.setAttribute("aria-expanded", String(open));
+      navToggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+      // lucide replaces the <i> with an <svg>, so rebuild the icon each time.
+      navToggle.innerHTML = '<i data-lucide="' + (open ? "x" : "menu") + '"></i>';
+      if (window.lucide) lucide.createIcons();
+    }
+    navToggle.addEventListener("click", function () {
+      setMenu(mobileMenu.hidden);
+    });
+    // Close after picking a destination.
+    mobileMenu.querySelectorAll("a").forEach(function (a) {
+      a.addEventListener("click", function () { setMenu(false); });
+    });
+    // Close on Escape or a tap outside the menu.
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !mobileMenu.hidden) setMenu(false);
+    });
+    document.addEventListener("click", function (e) {
+      if (mobileMenu.hidden) return;
+      if (!mobileMenu.contains(e.target) && !navToggle.contains(e.target)) setMenu(false);
+    });
+  }
+
   // ── Newsletter forms ───────────────────────────────────────
   function showSuccess(form) {
     const onDark = form.classList.contains("signup--dark");
