@@ -60,4 +60,4 @@ endpoint is set, the buttons show "Coming soon".
 - Essay / "Read all essays" / "More about me" links, and the $49 Handbook "Get it" link.
 - Offer-page CTAs ("Book the Roadmap", "See how it works") currently open the
   contact modal — swap to a payment/booking link when ready.
-- Contact email is `pedrosanders@fonoster.com` (in the modal + `CONTACT_EMAIL` in `main.js`).
+- Contact email is `pedro.sanders@fonoster.com` (in the modal + `CONTACT_EMAIL` in `main.js`).

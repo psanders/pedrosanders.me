@@ -8,7 +8,7 @@
 const NEWSLETTER_URL = "https://script.google.com/macros/s/AKfycbx6293GdHbIDtVSposlXJCNEsAcUXdBH3nNqxx5yyJHr5KpN9GmzUd0j_PO-V7UMEz7/exec";
 
 // Contact email shown in the modal.
-const CONTACT_EMAIL = "pedrosanders@fonoster.com";
+const CONTACT_EMAIL = "pedro.sanders@fonoster.com";
 
 (function () {
   "use strict";
