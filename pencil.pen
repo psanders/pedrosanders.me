@@ -11247,7 +11247,7 @@
                           "type": "text",
                           "id": "BGle2",
                           "fill": "#ffffffff",
-                          "content": "Get the free guide",
+                          "content": "See how it works",
                           "fontFamily": "Poppins",
                           "fontSize": 15,
                           "fontWeight": "600"
@@ -18929,7 +18929,7 @@
                       "id": "c0buk0",
                       "name": "Label",
                       "fill": "#ffffffff",
-                      "content": "Get the free guide",
+                      "content": "See how it works",
                       "fontFamily": "Poppins",
                       "fontSize": 15,
                       "fontWeight": "600"

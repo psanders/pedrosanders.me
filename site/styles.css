@@ -802,7 +802,7 @@ i[data-lucide] { display: inline-flex; }
   .about__aside { width: 100%; }
   .lead__inner { flex-direction: column; align-items: flex-start; gap: 32px; }
   .lead__main { display: contents; }
-  .lead__cta { order: 1; align-self: stretch; justify-content: center; padding-top: 4px; }
+  .lead__cta { order: 1; align-self: stretch; justify-content: center; padding-top: 80px; }
   .lead__count { display: none; }
   .lead__visual { width: 100%; max-width: 340px; height: 320px; align-self: center; }
   .lead__glow { left: 50%; margin-left: -140px; }
@@ -834,15 +834,15 @@ i[data-lucide] { display: inline-flex; }
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     gap: 16px;
-    padding: 4px var(--pad) 4px;
-    margin: 0 calc(-1 * var(--pad));
+    padding: 32px var(--pad) 80px;
+    margin: -28px calc(-1 * var(--pad)) -20px;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
   }
   .offers__scroll::-webkit-scrollbar { display: none; }
   .offer { scroll-snap-align: center; flex: 0 0 86%; min-height: 0; }
   .offers__dots { display: flex; justify-content: center; gap: 8px; margin-top: 24px; }
-  .dot { width: 8px; height: 8px; border-radius: 999px; background: var(--border-2); transition: background .15s ease, width .15s ease; }
+  .dot { width: 8px; height: 8px; border-radius: 999px; background: #b4c2b4; transition: background .15s ease, width .15s ease; }
   .dot--active { width: 22px; background: var(--green-900); }
 
   /* Community: icons only, no labels */

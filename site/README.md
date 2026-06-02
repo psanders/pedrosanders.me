@@ -58,6 +58,6 @@ endpoint is set, the buttons show "Coming soon".
 - Social links — all `href="#"` (nav community row + footer). Drop in real URLs.
 - `assets/og-banner.png` (1200×630) referenced by OpenGraph/Twitter meta.
 - Essay / "Read all essays" / "More about me" links, and the $49 Handbook "Get it" link.
-- Offer-page CTAs ("Book the Roadmap", "Request a conversation") currently open the
+- Offer-page CTAs ("Book the Roadmap", "See how it works") currently open the
   contact modal — swap to a payment/booking link when ready.
 - Contact email is `pedrosanders@fonoster.com` (in the modal + `CONTACT_EMAIL` in `main.js`).
