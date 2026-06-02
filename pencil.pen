@@ -10562,7 +10562,7 @@
                           "type": "text",
                           "id": "q88aCi",
                           "fill": "#9aa39a",
-                          "content": "tu@email.com",
+                          "content": "you@email.com",
                           "fontFamily": "Poppins",
                           "fontSize": 15,
                           "fontWeight": "500"
@@ -11884,7 +11884,7 @@
                       "type": "text",
                       "id": "E5jjWj",
                       "fill": "#9aa39a",
-                      "content": "tu@email.com",
+                      "content": "you@email.com",
                       "fontFamily": "Poppins",
                       "fontSize": 15,
                       "fontWeight": "500"
