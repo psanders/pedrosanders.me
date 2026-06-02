@@ -32,16 +32,42 @@ const CONTACT_EMAIL = "pedrosanders@fonoster.com";
     if (window.lucide) lucide.createIcons();
   }
 
+  // Stricter than the browser's lenient type="email": requires a local part,
+  // an "@", and a domain with a dot and a 2+ char TLD, with no whitespace.
+  function isValidEmail(value) {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(value);
+  }
+
   document.querySelectorAll("[data-newsletter]").forEach(function (form) {
+    const input = form.querySelector('input[type="email"]');
+    const field = input ? input.closest(".field") : null;
+    const btn = form.querySelector(".signup__btn");
+    const label = btn ? btn.querySelector(".signup__label") : null;
+
+    function clearError() {
+      if (field) field.classList.remove("field--error");
+      if (input) input.removeAttribute("aria-invalid");
+    }
+    if (input) input.addEventListener("input", clearError);
+
     form.addEventListener("submit", async function (e) {
       e.preventDefault();
-      const input = form.querySelector('input[type="email"]');
-      const btn = form.querySelector(".signup__btn");
-      const label = btn.querySelector(".signup__label");
+      if (!input) return;
       const email = input.value.trim();
-      if (!email) return;
-
       const original = label ? label.textContent : "";
+
+      if (!isValidEmail(email)) {
+        if (field) field.classList.add("field--error");
+        input.setAttribute("aria-invalid", "true");
+        input.focus();
+        if (label) {
+          label.textContent = "Enter a valid email";
+          setTimeout(function () { label.textContent = original; }, 2600);
+        }
+        return;
+      }
+
+      clearError();
       if (label) label.textContent = "Sending…";
       btn.disabled = true;
 

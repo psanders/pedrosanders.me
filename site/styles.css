@@ -16,6 +16,7 @@
   --muted-dark: #a8c8a8;
   --orange: #ff9965;
   --teal: #5fcfce;
+  --error: #d64545;
   --placeholder: #9aa39a;
   --white: #ffffff;
 
@@ -224,6 +225,8 @@ i[data-lucide] { display: inline-flex; }
 .field input::placeholder { color: var(--placeholder); }
 
 .signup--light .field { border: 1.5px solid var(--green-900); }
+.signup .field--error { border: 1.5px solid var(--error); }
+.signup .field--error i { color: var(--error); }
 .signup__btn { border-radius: 14px; padding: 18px 28px; font-size: 15px; }
 
 .signup__note {
