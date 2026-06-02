@@ -39,7 +39,12 @@ const CONTACT_EMAIL = "pedrosanders@fonoster.com";
       navToggle.innerHTML = '<i data-lucide="' + (open ? "x" : "menu") + '"></i>';
       if (window.lucide) lucide.createIcons();
     }
-    navToggle.addEventListener("click", function () {
+    navToggle.addEventListener("click", function (e) {
+      // Stop this click from reaching the document outside-click handler
+      // below: setMenu() rebuilds the toggle's icon, detaching the clicked
+      // node, so contains(e.target) would wrongly read as "outside" and
+      // close the menu on the same click that opened it.
+      e.stopPropagation();
       setMenu(mobileMenu.hidden);
     });
     // Close after picking a destination.
