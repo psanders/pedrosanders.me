@@ -16,6 +16,17 @@ const CONTACT_EMAIL = "pedrosanders@fonoster.com";
   // ── Icons ──────────────────────────────────────────────────
   if (window.lucide) lucide.createIcons();
 
+  // ── Scroll to top ──────────────────────────────────────────
+  // The nav carries id="top" but is position:sticky, so a native #top
+  // jump lands on an element already pinned to the viewport and does
+  // nothing. Scroll the window explicitly instead.
+  document.querySelectorAll('a[href="#top"]').forEach(function (el) {
+    el.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  });
+
   // ── Newsletter forms ───────────────────────────────────────
   function showSuccess(form) {
     const onDark = form.classList.contains("signup--dark");
