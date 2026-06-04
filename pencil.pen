@@ -21739,7 +21739,7 @@
                   "type": "text",
                   "id": "S1sXPE",
                   "fill": "#5a6a5a",
-                  "content": "Built in Dominican Republic · USA · everywhere",
+                  "content": "Built in USA · everywhere",
                   "fontFamily": "Roboto Mono",
                   "fontSize": 11,
                   "fontWeight": "500"
@@ -24113,7 +24113,7 @@
       "clip": true,
       "width": 1584,
       "height": 396,
-      "fill": "#ffffff",
+      "fill": "#fbfbfbff",
       "layout": "none",
       "children": [
         {
@@ -24177,7 +24177,7 @@
           "type": "frame",
           "id": "KUEDF",
           "x": 1012,
-          "y": -15,
+          "y": -2,
           "name": "stack-visual",
           "width": 600,
           "height": 396,
@@ -24241,7 +24241,7 @@
                   "fill": "#053204",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "A field map for builders",
+                  "content": "A roadmap for builders",
                   "lineHeight": 1.1,
                   "fontFamily": "Poppins",
                   "fontSize": 22,
