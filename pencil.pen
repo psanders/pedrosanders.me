@@ -1,5 +1,5 @@
 {
-  "version": "2.13",
+  "version": "2.14",
   "children": [
     {
       "type": "frame",
@@ -27763,6 +27763,884 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "xoV4u",
+      "x": 15853,
+      "y": 1819,
+      "name": "Voice AI Post — D · Infra",
+      "clip": true,
+      "width": 1200,
+      "height": 1200,
+      "fill": "#053204ff",
+      "layout": "vertical",
+      "padding": 80,
+      "justifyContent": "space_between",
+      "children": [
+        {
+          "type": "frame",
+          "id": "XoZde",
+          "name": "top",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Q7Q5R",
+              "name": "topL",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "JoB5p",
+                  "name": "dot",
+                  "fill": "#ff9965ff",
+                  "width": 14,
+                  "height": 14
+                },
+                {
+                  "type": "text",
+                  "id": "IrIga",
+                  "name": "dLabel",
+                  "fill": "#39e19eff",
+                  "content": "VOICE AI / THE REAL WORK",
+                  "fontFamily": "Roboto Mono",
+                  "fontSize": 22,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "hX91J",
+              "name": "dTag",
+              "fill": "#39e19eff",
+              "content": "@pedrosanders",
+              "fontFamily": "Roboto Mono",
+              "fontSize": 18,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "e5pUHK",
+          "name": "mid",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 28,
+          "children": [
+            {
+              "type": "text",
+              "id": "YU2Cp",
+              "name": "dKick",
+              "fill": "#ff9965ff",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "THE MORE I THINK ABOUT IT, THE MORE IT ADDS UP.",
+              "lineHeight": 1.4,
+              "fontFamily": "Roboto Mono",
+              "fontSize": 22,
+              "fontWeight": "500",
+              "letterSpacing": 1
+            },
+            {
+              "type": "frame",
+              "id": "fjpzV",
+              "name": "head",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EUx6i",
+                  "name": "dL1",
+                  "fill": "#e6fff5ff",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "The work ahead has",
+                  "lineHeight": 1.04,
+                  "fontFamily": "Poppins",
+                  "fontSize": 92,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "GRJuM",
+                  "name": "dL2",
+                  "fill": "#e6fff5ff",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "nothing to do with AI.",
+                  "lineHeight": 1.04,
+                  "fontFamily": "Poppins",
+                  "fontSize": 92,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "WsnuD",
+                  "name": "dL3",
+                  "fill": "#39e19eff",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "It's the infra beneath.",
+                  "lineHeight": 1.04,
+                  "fontFamily": "Poppins",
+                  "fontSize": 92,
+                  "fontWeight": "600",
+                  "fontStyle": "italic"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OcOEE",
+          "name": "foot",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 18,
+          "children": [
+            {
+              "type": "frame",
+              "id": "ZDhrV",
+              "name": "rule",
+              "width": 200,
+              "height": 3,
+              "fill": "#39e19eff"
+            },
+            {
+              "type": "text",
+              "id": "kQKpz",
+              "name": "dPunch",
+              "fill": "#e6fff5ff",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Solve that — and make the money bag.",
+              "lineHeight": 1.2,
+              "fontFamily": "Poppins",
+              "fontSize": 44,
+              "fontWeight": "600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "MzeCD",
+      "x": 17173,
+      "y": 1819,
+      "name": "Voice AI Post — E · Infra (Light)",
+      "clip": true,
+      "width": 1200,
+      "height": 1200,
+      "fill": "#e6fff5ff",
+      "layout": "vertical",
+      "padding": 80,
+      "justifyContent": "space_between",
+      "children": [
+        {
+          "type": "frame",
+          "id": "C7ACdt",
+          "name": "top",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "YoQxH",
+              "name": "topL",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "VEwc4",
+                  "name": "dot",
+                  "fill": "#ff9965ff",
+                  "width": 14,
+                  "height": 14
+                },
+                {
+                  "type": "text",
+                  "id": "VXGJn",
+                  "name": "eLabel",
+                  "fill": "#053204ff",
+                  "content": "VOICE AI / THE REAL WORK",
+                  "fontFamily": "Roboto Mono",
+                  "fontSize": 22,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "y2DsY",
+              "name": "eTag",
+              "fill": "#008751ff",
+              "content": "@pedrosanders",
+              "fontFamily": "Roboto Mono",
+              "fontSize": 18,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BoAKa",
+          "name": "mid",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 26,
+          "children": [
+            {
+              "type": "text",
+              "id": "v2yK0n",
+              "name": "eKick",
+              "fill": "#008751ff",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "THE MORE I LOOK, THE MORE OBVIOUS IT GETS.",
+              "lineHeight": 1.4,
+              "fontFamily": "Roboto Mono",
+              "fontSize": 22,
+              "fontWeight": "500",
+              "letterSpacing": 1
+            },
+            {
+              "type": "frame",
+              "id": "SKuMq",
+              "name": "head",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "i1us5O",
+                  "name": "eL1",
+                  "fill": "#053204ff",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "The work ahead has",
+                  "lineHeight": 1.04,
+                  "fontFamily": "Poppins",
+                  "fontSize": 90,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "CwqI0",
+                  "name": "eL2",
+                  "fill": "#053204ff",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "nothing to do with AI.",
+                  "lineHeight": 1.04,
+                  "fontFamily": "Poppins",
+                  "fontSize": 90,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "V9MqS",
+                  "name": "eL3",
+                  "fill": "#008751ff",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "It's the infra beneath.",
+                  "lineHeight": 1.04,
+                  "fontFamily": "Poppins",
+                  "fontSize": 90,
+                  "fontWeight": "600",
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "agGed",
+              "name": "eSub",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "Byzqc",
+                  "name": "arr",
+                  "width": 30,
+                  "height": 30,
+                  "icon": "arrow-bend-down-right",
+                  "library": "phosphor",
+                  "weight": 600,
+                  "fill": "#008751ff"
+                },
+                {
+                  "type": "text",
+                  "id": "H9e0oU",
+                  "name": "eSubT",
+                  "fill": "#555555ff",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "The signaling. The media. The telephony glue nobody demos.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Poppins",
+                  "fontSize": 30,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IjKY9",
+          "name": "foot",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 18,
+          "children": [
+            {
+              "type": "frame",
+              "id": "I2OvM",
+              "name": "rule",
+              "width": 200,
+              "height": 3,
+              "fill": "#39e19eff"
+            },
+            {
+              "type": "text",
+              "id": "EFcfy",
+              "name": "ePunch",
+              "fill": "#008751ff",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Solve that, make the money bag. 💰💰💰",
+              "lineHeight": 1.2,
+              "fontFamily": "Poppins",
+              "fontSize": 44,
+              "fontWeight": "600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "NCjIC",
+      "x": 14730,
+      "y": 4619,
+      "name": "Toolkit Post — /ps:",
+      "clip": true,
+      "width": 1200,
+      "height": 1200,
+      "fill": "#141414ff",
+      "layout": "vertical",
+      "padding": 90,
+      "justifyContent": "space_between",
+      "children": [
+        {
+          "type": "frame",
+          "id": "gvc9W",
+          "name": "top",
+          "width": "fill_container",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "udKT7",
+              "name": "label",
+              "fill": "#6f6f6fff",
+              "content": "PEDRO SANDERS / DEV WORKFLOW",
+              "fontFamily": "Roboto Mono",
+              "fontSize": 18,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "ROUAP",
+              "name": "promptWrap",
+              "width": "fill_container",
+              "layout": "vertical",
+              "padding": [
+                34,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "W3WEsp",
+                  "name": "div-top",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "#2e2e2eff"
+                },
+                {
+                  "type": "frame",
+                  "id": "wSj2m",
+                  "name": "promptRow",
+                  "width": "fill_container",
+                  "gap": 14,
+                  "padding": [
+                    26,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k6XWbx",
+                      "name": "chevron",
+                      "fill": "#39e19eff",
+                      "content": "›",
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 34,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MHA3r",
+                      "name": "cmd",
+                      "fill": "#f4f4f4ff",
+                      "content": "/ps:",
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 34,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "v9EQS",
+                      "name": "cursor",
+                      "fill": "#39e19eff",
+                      "width": 16,
+                      "height": 34
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wPsFC",
+                  "name": "div-bot",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "#2e2e2eff"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "i88kl",
+              "name": "list",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 30,
+              "padding": [
+                40,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "j2RkK",
+                  "name": "row /kaizen",
+                  "width": "fill_container",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k8QYDV",
+                      "name": "name",
+                      "fill": "#39e19eff",
+                      "textGrowth": "fixed-width",
+                      "width": 300,
+                      "content": "/kaizen",
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 26,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "n6jgk5",
+                      "name": "desc",
+                      "fill": "#39e19eff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Daily 1%-better pass. Picks ONE high-value improvement and applies it.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "N5ruPK",
+                  "name": "row /bootstrap",
+                  "width": "fill_container",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "QxFfj",
+                      "name": "name",
+                      "fill": "#9a9a9aff",
+                      "textGrowth": "fixed-width",
+                      "width": 300,
+                      "content": "/bootstrap",
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 26,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "n6yWS8",
+                      "name": "desc",
+                      "fill": "#707070ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Scaffold a new TypeScript/Node project from an opinionated baseline.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "x9A7lC",
+                  "name": "row /ship",
+                  "width": "fill_container",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "R1o9G",
+                      "name": "name",
+                      "fill": "#9a9a9aff",
+                      "textGrowth": "fixed-width",
+                      "width": 300,
+                      "content": "/ship",
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 26,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kXHGb",
+                      "name": "desc",
+                      "fill": "#707070ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Drive one change to production: design, build, tests, ship.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ACDw4",
+                  "name": "row /issues-daily",
+                  "width": "fill_container",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hrZfI",
+                      "name": "name",
+                      "fill": "#9a9a9aff",
+                      "textGrowth": "fixed-width",
+                      "width": 300,
+                      "content": "/issues-daily",
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 26,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y9J2eA",
+                      "name": "desc",
+                      "fill": "#707070ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Pull open GitHub issues grouped by type and priority.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lclH4",
+                  "name": "row /issues-report",
+                  "width": "fill_container",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Jk8HA",
+                      "name": "name",
+                      "fill": "#9a9a9aff",
+                      "textGrowth": "fixed-width",
+                      "width": 300,
+                      "content": "/issues-report",
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 26,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JOniv",
+                      "name": "desc",
+                      "fill": "#707070ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "File a structured GitHub issue: bug, feature, or chore.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rE9nW",
+          "name": "footer",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "oL0bM",
+              "name": "caption",
+              "fill": "#6f6f6fff",
+              "content": "— The slash commands I built to run my day.",
+              "fontFamily": "Roboto Mono",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "uwZzU",
+              "name": "handle",
+              "fill": "#39e19eff",
+              "content": "@pedrosanders",
+              "fontFamily": "Roboto Mono",
+              "fontSize": 18,
+              "fontWeight": "500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "kbwmx",
+      "x": 16070,
+      "y": 4619,
+      "name": "Legacy Stack Post — terminal",
+      "clip": true,
+      "width": 1200,
+      "height": 1200,
+      "fill": "#141414",
+      "layout": "vertical",
+      "padding": 90,
+      "justifyContent": "space_between",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Gd0lL",
+          "name": "top",
+          "width": "fill_container",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "ZNQbZ",
+              "name": "label",
+              "fill": "#6f6f6f",
+              "content": "PEDRO SANDERS / VOICE AI INFRA",
+              "fontFamily": "Roboto Mono",
+              "fontSize": 18,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "TR18c",
+              "name": "promptWrap",
+              "width": "fill_container",
+              "layout": "vertical",
+              "padding": [
+                34,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wIS3Z",
+                  "name": "div-top",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "#2e2e2e"
+                },
+                {
+                  "type": "frame",
+                  "id": "FZb0q",
+                  "name": "promptRow",
+                  "width": "fill_container",
+                  "gap": 14,
+                  "padding": [
+                    26,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "C10Q7C",
+                      "name": "chevron",
+                      "fill": "#39e19e",
+                      "content": "›",
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 34,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "grX9B",
+                      "name": "cmd",
+                      "fill": "#f4f4f4",
+                      "content": "voice --no-legacy-stack",
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 34,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "FDBAv",
+                      "name": "cursor",
+                      "fill": "#39e19e",
+                      "width": 16,
+                      "height": 34
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JLAU1",
+                  "name": "div-bot",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "#2e2e2e"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pfu9J",
+              "name": "hookWrap",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                44,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BC0eN",
+                  "name": "line1",
+                  "fill": "#f4f4f4",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "The legacy stack still runs my calls today.",
+                  "lineHeight": 1.14,
+                  "fontFamily": "Roboto Mono",
+                  "fontSize": 92,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "yNVRX",
+                  "name": "line2",
+                  "fill": "#39e19e",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "It won't in a year.",
+                  "lineHeight": 1.14,
+                  "fontFamily": "Roboto Mono",
+                  "fontSize": 92,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "q5m7Z",
+          "name": "footer",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "XfJNs",
+              "name": "caption",
+              "fill": "#6f6f6f",
+              "content": "— Building voice on modern infra.",
+              "fontFamily": "Roboto Mono",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "B9hGlu",
+              "name": "handle",
+              "fill": "#39e19e",
+              "content": "pedrosanders.me",
+              "fontFamily": "Roboto Mono",
+              "fontSize": 18,
+              "fontWeight": "500"
+            }
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "fileToken": "a18f103f-fddd-43c5-ac6c-3082583db461"
 }
