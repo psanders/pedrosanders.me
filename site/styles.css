@@ -144,6 +144,12 @@ i[data-lucide] { display: inline-flex; }
   font-weight: 700;
   font-size: 18px;
 }
+.brand__mark-glyph {
+  display: inline-block;
+  /* flexbox centers the line box, but "ps" has no ascenders and a "p" descender,
+     so the glyph ink sits visually low/left of that box — nudge to compensate */
+  transform: translate(-0.5px, -2px);
+}
 .brand__name { font-weight: 700; font-size: 20px; color: var(--green-900); }
 
 .nav__links { display: flex; gap: 40px; }
