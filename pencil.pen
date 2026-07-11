@@ -10487,7 +10487,7 @@
                       "type": "text",
                       "id": "QgD1o",
                       "fill": "#053204ff",
-                      "content": "Founder · Fonoster · Voice AI",
+                      "content": "Founder & CEO · Fonoster",
                       "fontFamily": "Roboto Mono",
                       "fontSize": 12,
                       "fontWeight": "500",
@@ -10501,7 +10501,7 @@
                   "fill": "#053204ff",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "It's time to rethink how voice is built.",
+                  "content": "I build Voice AI from the carrier edge to the LLM.",
                   "lineHeight": 1.02,
                   "fontFamily": "Poppins",
                   "fontSize": 60,
@@ -10514,7 +10514,7 @@
                   "fill": "#3a4a3a",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "I help engineers and operators ship modern Voice AI without drowning in legacy stacks. Join 8,000+ builders getting one hard-won lesson every week.",
+                  "content": "I'm Pedro, founder of Fonoster: infrastructure for Voice AI. We run our own product on it, collecting real money on real phone calls. I write about what survives.",
                   "lineHeight": 1.5,
                   "fontFamily": "Poppins",
                   "fontSize": 19,
@@ -10585,7 +10585,7 @@
                           "type": "text",
                           "id": "rgRg7",
                           "fill": "#ffffffff",
-                          "content": "Start here",
+                          "content": "Get the weekly lesson",
                           "fontFamily": "Poppins",
                           "fontSize": 15,
                           "fontWeight": "600"
@@ -10866,27 +10866,56 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "RpWDP",
-                  "name": "GitHub",
+                  "id": "A0IDq",
+                  "name": "LinkedIn",
                   "gap": 8,
                   "alignItems": "center",
                   "children": [
                     {
                       "type": "icon",
-                      "id": "m6AcEK",
+                      "id": "BWI73",
                       "name": "Icon",
                       "width": 18,
                       "height": 18,
-                      "icon": "github-logo",
+                      "icon": "linkedin-logo",
                       "library": "phosphor",
                       "fill": "#053204ff"
                     },
                     {
                       "type": "text",
-                      "id": "j3Xg1",
+                      "id": "Wk2vG",
                       "name": "Label",
                       "fill": "#053204ff",
-                      "content": "GitHub",
+                      "content": "LinkedIn",
+                      "fontFamily": "Poppins",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Q0m05C",
+                  "name": "X",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "fRAeN",
+                      "name": "Icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "twitter-logo",
+                      "library": "phosphor",
+                      "fill": "#053204ff"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KEcNJ",
+                      "name": "Label",
+                      "fill": "#053204ff",
+                      "content": "X",
                       "fontFamily": "Poppins",
                       "fontSize": 15,
                       "fontWeight": "600"
@@ -10953,59 +10982,227 @@
                 },
                 {
                   "type": "frame",
-                  "id": "A0IDq",
-                  "name": "LinkedIn",
+                  "id": "RpWDP",
+                  "name": "GitHub",
                   "gap": 8,
                   "alignItems": "center",
                   "children": [
                     {
                       "type": "icon",
-                      "id": "BWI73",
+                      "id": "m6AcEK",
                       "name": "Icon",
                       "width": 18,
                       "height": 18,
-                      "icon": "linkedin-logo",
+                      "icon": "github-logo",
                       "library": "phosphor",
                       "fill": "#053204ff"
                     },
                     {
                       "type": "text",
-                      "id": "Wk2vG",
+                      "id": "j3Xg1",
                       "name": "Label",
                       "fill": "#053204ff",
-                      "content": "LinkedIn",
+                      "content": "GitHub",
                       "fontFamily": "Poppins",
                       "fontSize": 15,
                       "fontWeight": "600"
                     }
                   ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kwKXY",
+          "name": "What I'm Building",
+          "width": "fill_container",
+          "fill": "#ffffffff",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            100,
+            56
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "z9j3b",
+              "name": "Eyebrow",
+              "fill": "#053204ff",
+              "content": "01 / WHAT I'M BUILDING",
+              "fontFamily": "Roboto Mono",
+              "fontSize": 13,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "STddq",
+              "name": "Fonoster Card",
+              "width": "fill_container",
+              "fill": "#053204ff",
+              "cornerRadius": 24,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#05320444",
+                "offset": {
+                  "x": 0,
+                  "y": 24
+                },
+                "blur": 50
+              },
+              "layout": "vertical",
+              "gap": 24,
+              "padding": 48,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "e2dAhS",
+                  "name": "Eyebrow",
+                  "fill": "#39e19eff",
+                  "content": "FONOSTER",
+                  "fontFamily": "Roboto Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2.5
+                },
+                {
+                  "type": "text",
+                  "id": "iECdo",
+                  "name": "Title",
+                  "fill": "#ffffffff",
+                  "content": "Fonoster",
+                  "lineHeight": 1.05,
+                  "fontFamily": "Poppins",
+                  "fontSize": 40,
+                  "fontWeight": "700",
+                  "letterSpacing": -1
                 },
                 {
                   "type": "frame",
-                  "id": "Q0m05C",
-                  "name": "X",
+                  "id": "G5VZ5",
+                  "name": "Link",
                   "gap": 8,
                   "alignItems": "center",
                   "children": [
                     {
+                      "type": "text",
+                      "id": "OOoQC",
+                      "name": "Label",
+                      "fill": "#39e19eff",
+                      "content": "fonoster.com",
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
                       "type": "icon",
-                      "id": "fRAeN",
-                      "name": "Icon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "twitter-logo",
-                      "library": "phosphor",
-                      "fill": "#053204ff"
+                      "id": "zChZv",
+                      "name": "Arrow",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "#39e19eff"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Cwvet",
+                  "name": "Body",
+                  "fill": "#a8c8a8",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Infrastructure for Voice AI. Programmable voice from the carrier edge to the LLM, built for production from day one.",
+                  "lineHeight": 1.55,
+                  "fontFamily": "Poppins",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "aQItV",
+                  "name": "Qcobro Card",
+                  "width": "fill_container",
+                  "fill": "#1A4D1Aff",
+                  "cornerRadius": 16,
+                  "stroke": "#39e19e33",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Z3uyh",
+                      "name": "Eyebrow",
+                      "fill": "#39e19eff",
+                      "content": "BUILT ON FONOSTER · IN PRODUCTION",
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 10,
+                      "fontWeight": "500",
+                      "letterSpacing": 1.5
                     },
                     {
                       "type": "text",
-                      "id": "KEcNJ",
-                      "name": "Label",
-                      "fill": "#053204ff",
-                      "content": "X",
+                      "id": "h0pOM",
+                      "name": "Title",
+                      "fill": "#ffffffff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Qcobro · Vertical AI for collections",
+                      "lineHeight": 1.2,
                       "fontFamily": "Poppins",
-                      "fontSize": 15,
-                      "fontWeight": "600"
+                      "fontSize": 20,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.3
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dc4d9",
+                      "name": "Link",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "D3k7n",
+                          "name": "Label",
+                          "fill": "#5fcfceff",
+                          "content": "qcobro.com",
+                          "fontFamily": "Roboto Mono",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "j6f9uG",
+                          "name": "Arrow",
+                          "width": 11,
+                          "height": 11,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "#5fcfceff"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "T6CyT",
+                      "name": "Body",
+                      "fill": "#a8c8a8",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Our own product, our own traffic. Every lesson I publish was paid for here first.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Poppins",
+                      "fontSize": 13,
+                      "fontWeight": "500"
                     }
                   ]
                 }
@@ -11036,7 +11233,7 @@
                   "type": "text",
                   "id": "gKCAd",
                   "fill": "#053204ff",
-                  "content": "01 / ABOUT",
+                  "content": "02 / ABOUT",
                   "fontFamily": "Roboto Mono",
                   "fontSize": 13,
                   "fontWeight": "500",
@@ -11046,7 +11243,7 @@
                   "type": "text",
                   "id": "c0f66g",
                   "fill": "#053204ff",
-                  "content": "Hi — I'm Pedro.",
+                  "content": "Hi. I'm Pedro.",
                   "lineHeight": 1.05,
                   "fontFamily": "Poppins",
                   "fontSize": 48,
@@ -11076,7 +11273,7 @@
                   "fill": "#053204ff",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "I help engineers and operators ship modern Voice AI — without drowning in the legacy stack.",
+                  "content": "For 15 years I've worked at the edge of communications infrastructure: SIP, RTP, media servers, and now Voice AI. I built Routr and Fonoster because the voice stack deserved better tooling.",
                   "lineHeight": 1.25,
                   "fontFamily": "Poppins",
                   "fontSize": 30,
@@ -11089,7 +11286,7 @@
                   "fill": "#3a4a3a",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "For 15 years I've worked at the edge of communications infrastructure — SIP, RTP, media servers, and now Voice AI. I built Routr because the open-source telephony stack needed something easier to operate. I'm now building Fonoster to make programmable voice approachable for the next million developers.",
+                  "content": "But infrastructure claims are cheap. So we became our own customer: Qcobro, our vertical AI for collections, runs on Fonoster in production. Real calls, real money, real failure modes. That's where everything I publish comes from.",
                   "lineHeight": 1.55,
                   "fontFamily": "Poppins",
                   "fontSize": 16,
@@ -11101,19 +11298,7 @@
                   "fill": "#3a4a3a",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Most companies don't need an entire PBX to ship a great voice experience. They need clarity. They need patterns that work. They need someone who's been on the other end of a 3 AM Asterisk crash and lived to tell about it.",
-                  "lineHeight": 1.55,
-                  "fontFamily": "Poppins",
-                  "fontSize": 16,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "text",
-                  "id": "wtBjZ",
-                  "fill": "#3a4a3a",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "That's what I write about. That's what I teach. And it's why 8,000+ builders open my emails every week.",
+                  "content": "The goal is simple: make Fonoster the standard for how Voice AI gets built.",
                   "lineHeight": 1.55,
                   "fontFamily": "Poppins",
                   "fontSize": 16,
@@ -11327,7 +11512,7 @@
                       "fill": "#053204ff",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "A field map for builders",
+                      "content": "A founder's field map",
                       "lineHeight": 1.15,
                       "fontFamily": "Poppins",
                       "fontSize": 20,
@@ -11544,7 +11729,7 @@
                   "type": "text",
                   "id": "V4IZ7",
                   "fill": "#053204ff",
-                  "content": "02 / OFFERS",
+                  "content": "03 / ADVISORY",
                   "fontFamily": "Roboto Mono",
                   "fontSize": 13,
                   "fontWeight": "500",
@@ -11564,7 +11749,7 @@
                       "fill": "#053204ff",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Three ways to work with me.",
+                      "content": "Advisory.",
                       "lineHeight": 1.05,
                       "fontFamily": "Poppins",
                       "fontSize": 44,
@@ -11577,7 +11762,7 @@
                       "fill": "#3a4a3a",
                       "textGrowth": "fixed-width",
                       "width": 380,
-                      "content": "From a $49 handbook to a hands-on embed — built from real production incidents, not slides.",
+                      "content": "I take a small number of engagements a year, for teams building serious voice infrastructure.",
                       "lineHeight": 1.5,
                       "fontFamily": "Poppins",
                       "fontSize": 15,
@@ -11597,8 +11782,40 @@
                   "id": "rtTG6",
                   "type": "ref",
                   "ref": "wJwbr",
-                  "name": "Offer Card · Book",
-                  "width": "fill_container"
+                  "name": "Offer Card · Embed",
+                  "width": "fill_container",
+                  "descendants": {
+                    "I4Io5": {
+                      "content": "EMBED · BY APPLICATION"
+                    },
+                    "nNtLs": {
+                      "enabled": false
+                    },
+                    "lLRjf": {
+                      "content": "The Embed"
+                    },
+                    "Bt7zP": {
+                      "content": "I join your team to architect and de-risk your voice infrastructure, as the person who's actually built one at scale."
+                    },
+                    "K103zK": {
+                      "content": "Fixed scope"
+                    },
+                    "DZtvr": {
+                      "content": "8–12 weeks"
+                    },
+                    "ZntDZ": {
+                      "content": "1–2 at a time"
+                    },
+                    "kvB1t": {
+                      "content": "$15K"
+                    },
+                    "O0uPe": {
+                      "content": "starting"
+                    },
+                    "czbVe": {
+                      "content": "Request a conversation"
+                    }
+                  }
                 },
                 {
                   "id": "j9AMyp",
@@ -11611,35 +11828,35 @@
                   "id": "S6AM14",
                   "type": "ref",
                   "ref": "vXAcG",
-                  "name": "Offer Card · Embed",
+                  "name": "Offer Card · Book",
                   "width": "fill_container",
                   "descendants": {
                     "rddq6": {
-                      "content": "EMBED · BY APPLICATION"
+                      "content": "BOOK · PDF + EPUB"
                     },
                     "UHX13": {
-                      "content": "The Embed"
+                      "content": "Routr's Operators Handbook"
                     },
                     "WXKml": {
-                      "content": "I join your team to architect and de-risk your voice infrastructure — as the person who's actually built one at scale."
+                      "content": "The missing manual for running Routr in production. Topology patterns, scaling, observability, and the failure modes nobody writes about."
                     },
                     "amHsM": {
-                      "content": "Fixed scope"
+                      "content": "83 pages"
                     },
                     "kBSs9": {
-                      "content": "8–12 weeks"
+                      "content": "Lifetime updates"
                     },
                     "b77Iqi": {
-                      "content": "1–2 at a time"
+                      "content": "Discord access"
                     },
                     "KyvPR": {
-                      "content": "$15K"
+                      "content": "$23"
                     },
                     "L0Jygo": {
-                      "content": "starting"
+                      "content": "one-time"
                     },
                     "WDbJk": {
-                      "content": "Request a conversation"
+                      "content": "Get it"
                     }
                   }
                 }
@@ -11684,7 +11901,7 @@
                       "type": "text",
                       "id": "Pjosv",
                       "fill": "#053204ff",
-                      "content": "03 / WRITING",
+                      "content": "04 / WRITING",
                       "fontFamily": "Roboto Mono",
                       "fontSize": 13,
                       "fontWeight": "500",
@@ -11787,7 +12004,7 @@
                       "content": "Why Routr is boring (on purpose)."
                     },
                     "f8Ri0": {
-                      "content": "A SIP server should be invisible. The lessons from 4 years of building one in the open."
+                      "content": "A SIP server should be invisible. The lessons from 4 years of building one."
                     }
                   }
                 }
@@ -11813,7 +12030,7 @@
               "type": "text",
               "id": "xqPfd",
               "fill": "#39e19eff",
-              "content": "04 / NEWSLETTER",
+              "content": "05 / NEWSLETTER",
               "fontFamily": "Roboto Mono",
               "fontSize": 12,
               "fontWeight": "500",
@@ -18325,7 +18542,7 @@
                   "id": "wkLL3",
                   "name": "Label",
                   "fill": "#053204ff",
-                  "content": "Founder · Fonoster · Voice AI",
+                  "content": "Founder & CEO · Fonoster",
                   "fontFamily": "Roboto Mono",
                   "fontSize": 10,
                   "fontWeight": "500",
@@ -18340,7 +18557,7 @@
               "fill": "#053204ff",
               "textGrowth": "fixed-width",
               "width": "fill_container",
-              "content": "It's time to rethink how voice is built.",
+              "content": "I build Voice AI from the carrier edge to the LLM.",
               "lineHeight": 1.04,
               "fontFamily": "Poppins",
               "fontSize": 38,
@@ -18354,7 +18571,7 @@
               "fill": "#3a4a3a",
               "textGrowth": "fixed-width",
               "width": "fill_container",
-              "content": "I help engineers and operators ship modern Voice AI without drowning in legacy stacks. Join 8,000+ builders getting one hard-won lesson every week.",
+              "content": "I'm Pedro, founder of Fonoster: infrastructure for Voice AI. We run our own product on it, collecting real money on real phone calls. I write about what survives.",
               "lineHeight": 1.5,
               "fontFamily": "Poppins",
               "fontSize": 16,
@@ -18380,7 +18597,7 @@
                   "id": "jJxix",
                   "name": "Label",
                   "fill": "#ffffffff",
-                  "content": "Join the newsletter",
+                  "content": "Get the weekly lesson",
                   "fontFamily": "Poppins",
                   "fontSize": 15,
                   "fontWeight": "600"
@@ -18443,11 +18660,21 @@
               "children": [
                 {
                   "type": "icon",
-                  "id": "OH1V6",
-                  "name": "github-logo",
+                  "id": "R7ann",
+                  "name": "linkedin-logo",
                   "width": 24,
                   "height": 24,
-                  "icon": "github-logo",
+                  "icon": "linkedin-logo",
+                  "library": "phosphor",
+                  "fill": "#053204ff"
+                },
+                {
+                  "type": "icon",
+                  "id": "LqDyD",
+                  "name": "twitter-logo",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "twitter-logo",
                   "library": "phosphor",
                   "fill": "#053204ff"
                 },
@@ -18473,23 +18700,210 @@
                 },
                 {
                   "type": "icon",
-                  "id": "R7ann",
-                  "name": "linkedin-logo",
+                  "id": "OH1V6",
+                  "name": "github-logo",
                   "width": 24,
                   "height": 24,
-                  "icon": "linkedin-logo",
+                  "icon": "github-logo",
                   "library": "phosphor",
                   "fill": "#053204ff"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "T32Xq",
+          "name": "What I'm Building",
+          "width": "fill_container",
+          "fill": "#ffffffff",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            56,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "FSIwB",
+              "name": "Eyebrow",
+              "fill": "#053204ff",
+              "content": "01 / WHAT I'M BUILDING",
+              "fontFamily": "Roboto Mono",
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "N6pAb",
+              "name": "Fonoster Card",
+              "width": "fill_container",
+              "fill": "#053204ff",
+              "cornerRadius": 20,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#05320444",
+                "offset": {
+                  "x": 0,
+                  "y": 16
+                },
+                "blur": 36
+              },
+              "layout": "vertical",
+              "gap": 18,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "X49Tx",
+                  "name": "Eyebrow",
+                  "fill": "#39e19eff",
+                  "content": "FONOSTER",
+                  "fontFamily": "Roboto Mono",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
                 },
                 {
-                  "type": "icon",
-                  "id": "LqDyD",
-                  "name": "twitter-logo",
-                  "width": 24,
-                  "height": 24,
-                  "icon": "twitter-logo",
-                  "library": "phosphor",
-                  "fill": "#053204ff"
+                  "type": "text",
+                  "id": "b8qT2K",
+                  "name": "Title",
+                  "fill": "#ffffffff",
+                  "content": "Fonoster",
+                  "lineHeight": 1.08,
+                  "fontFamily": "Poppins",
+                  "fontSize": 28,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.6
+                },
+                {
+                  "type": "frame",
+                  "id": "C7e1Tz",
+                  "name": "Link",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q23Oi",
+                      "name": "Label",
+                      "fill": "#39e19eff",
+                      "content": "fonoster.com",
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "E6tOh3",
+                      "name": "Arrow",
+                      "width": 13,
+                      "height": 13,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "#39e19eff"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "G5YU5",
+                  "name": "Body",
+                  "fill": "#a8c8a8",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Infrastructure for Voice AI. Programmable voice from the carrier edge to the LLM, built for production from day one.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Poppins",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "hFV5G",
+                  "name": "Qcobro Card",
+                  "width": "fill_container",
+                  "fill": "#1A4D1Aff",
+                  "cornerRadius": 14,
+                  "stroke": "#39e19e33",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "I1xOX",
+                      "name": "Eyebrow",
+                      "fill": "#39e19eff",
+                      "content": "BUILT ON FONOSTER · IN PRODUCTION",
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": 9,
+                      "fontWeight": "500",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "UPCf6",
+                      "name": "Title",
+                      "fill": "#ffffffff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Qcobro · Vertical AI for collections",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Poppins",
+                      "fontSize": 17,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "G9u4V0",
+                      "name": "Link",
+                      "gap": 5,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "cRrL4",
+                          "name": "Label",
+                          "fill": "#5fcfceff",
+                          "content": "qcobro.com",
+                          "fontFamily": "Roboto Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "sW1LQ",
+                          "name": "Arrow",
+                          "width": 10,
+                          "height": 10,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "#5fcfceff"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "I7GAe",
+                      "name": "Body",
+                      "fill": "#a8c8a8",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Our own product, our own traffic. Every lesson I publish was paid for here first.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Poppins",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
                 }
               ]
             }
@@ -18513,7 +18927,7 @@
               "id": "xpDkm",
               "name": "Eyebrow",
               "fill": "#053204ff",
-              "content": "01 / ABOUT",
+              "content": "02 / ABOUT",
               "fontFamily": "Roboto Mono",
               "fontSize": 12,
               "fontWeight": "500",
@@ -18526,7 +18940,7 @@
               "fill": "#053204ff",
               "textGrowth": "fixed-width",
               "width": "fill_container",
-              "content": "Hi — I'm Pedro.",
+              "content": "Hi. I'm Pedro.",
               "lineHeight": 1.05,
               "fontFamily": "Poppins",
               "fontSize": 34,
@@ -18563,7 +18977,7 @@
                   "fill": "#053204ff",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "I help engineers and operators ship modern Voice AI — without drowning in the legacy stack.",
+                  "content": "For 15 years I've worked at the edge of communications infrastructure: SIP, RTP, media servers, and now Voice AI. I built Routr and Fonoster because the voice stack deserved better tooling.",
                   "lineHeight": 1.25,
                   "fontFamily": "Poppins",
                   "fontSize": 22,
@@ -18577,7 +18991,7 @@
                   "fill": "#3a4a3a",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "For 15 years I've worked at the edge of communications infrastructure — SIP, RTP, media servers, and now Voice AI. I built Routr because the open-source telephony stack needed something easier to operate.",
+                  "content": "But infrastructure claims are cheap. So we became our own customer: Qcobro, our vertical AI for collections, runs on Fonoster in production. Real calls, real money, real failure modes. That's where everything I publish comes from.",
                   "lineHeight": 1.55,
                   "fontFamily": "Poppins",
                   "fontSize": 15,
@@ -18590,11 +19004,46 @@
                   "fill": "#3a4a3a",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "I'm now building Fonoster to make programmable voice approachable for the next million developers. That's what I write about, and it's why 8,000+ builders open my emails every week.",
+                  "content": "The goal is simple: make Fonoster the standard for how Voice AI gets built.",
                   "lineHeight": 1.55,
                   "fontFamily": "Poppins",
                   "fontSize": 15,
                   "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "DcfXm",
+                  "name": "More Link",
+                  "gap": 8,
+                  "padding": [
+                    14,
+                    0,
+                    0,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "f26iiT",
+                      "name": "Label",
+                      "fill": "#053204ff",
+                      "content": "More about me",
+                      "fontFamily": "Poppins",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "RWQse",
+                      "name": "Arrow",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "#39e19eff"
+                    }
+                  ]
                 }
               ]
             }
@@ -18712,7 +19161,7 @@
                       "fill": "#053204ff",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "A field map for builders",
+                      "content": "A founder's field map",
                       "lineHeight": 1.15,
                       "fontFamily": "Poppins",
                       "fontSize": 20,
@@ -18988,7 +19437,7 @@
                       "id": "EcBZJ",
                       "name": "Eyebrow",
                       "fill": "#053204ff",
-                      "content": "02 / OFFERS",
+                      "content": "03 / ADVISORY",
                       "fontFamily": "Roboto Mono",
                       "fontSize": 12,
                       "fontWeight": "500",
@@ -19039,7 +19488,7 @@
                   "fill": "#053204ff",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Three ways to work with me.",
+                  "content": "Advisory.",
                   "lineHeight": 1.08,
                   "fontFamily": "Poppins",
                   "fontSize": 30,
@@ -19053,7 +19502,7 @@
                   "fill": "#3a4a3a",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "From a $49 handbook to a hands-on embed — built from real production incidents, not slides.",
+                  "content": "I take a small number of engagements a year, for teams building serious voice infrastructure.",
                   "lineHeight": 1.5,
                   "fontFamily": "Poppins",
                   "fontSize": 14,
@@ -19076,8 +19525,34 @@
                   "id": "NXM3Z",
                   "type": "ref",
                   "ref": "k3iKV",
-                  "name": "Offer · Book",
-                  "width": 300
+                  "name": "Offer · Embed",
+                  "width": 300,
+                  "descendants": {
+                    "J1Rov": {
+                      "content": "EMBED · BY APPLICATION"
+                    },
+                    "q6BdgF": {
+                      "enabled": false
+                    },
+                    "ujOfX": {
+                      "content": "The Embed"
+                    },
+                    "INBqC": {
+                      "content": "I join your team to architect and de-risk your voice infrastructure, as the person who's actually built one at scale."
+                    },
+                    "scMUB": {
+                      "content": "Fixed scope · 8–12 weeks · 1–2 at a time"
+                    },
+                    "MM0SX": {
+                      "content": "$15K"
+                    },
+                    "N1saQq": {
+                      "content": "starting"
+                    },
+                    "CTAM1": {
+                      "content": "Request a conversation"
+                    }
+                  }
                 },
                 {
                   "id": "LXXgd",
@@ -19090,29 +19565,29 @@
                   "id": "OAwqx",
                   "type": "ref",
                   "ref": "DPwbC",
-                  "name": "Offer · Embed",
+                  "name": "Offer · Book",
                   "width": 300,
                   "descendants": {
                     "KkDDD": {
-                      "content": "EMBED · BY APPLICATION"
+                      "content": "BOOK · PDF + EPUB"
                     },
                     "ijy9p": {
-                      "content": "The Embed"
+                      "content": "Routr's Operators Handbook"
                     },
                     "lmRhT": {
-                      "content": "I join your team to architect and de-risk your voice infrastructure — as the person who's actually built one at scale."
+                      "content": "The missing manual for running Routr in production. Topology patterns, scaling, observability, and the failure modes nobody writes about."
                     },
                     "AeMQv": {
-                      "content": "Fixed scope · 8–12 weeks · 1–2 at a time"
+                      "content": "83 pages · Lifetime updates · Discord access"
                     },
                     "wMJ7k": {
-                      "content": "From $15K"
+                      "content": "$23"
                     },
                     "g1IZtl": {
-                      "content": "by application"
+                      "content": "one-time"
                     },
                     "J7VCJ": {
-                      "content": "Request a conversation"
+                      "content": "Get it"
                     }
                   }
                 }
@@ -19195,7 +19670,7 @@
                   "id": "kyNbZ",
                   "name": "Eyebrow",
                   "fill": "#053204ff",
-                  "content": "03 / WRITING",
+                  "content": "04 / WRITING",
                   "fontFamily": "Roboto Mono",
                   "fontSize": 12,
                   "fontWeight": "500",
@@ -19274,7 +19749,7 @@
                       "content": "Why Routr is boring (on purpose)."
                     },
                     "CtWPj": {
-                      "content": "A SIP server should be invisible. The lessons from 4 years of building one in the open."
+                      "content": "A SIP server should be invisible. The lessons from 4 years of building one."
                     }
                   }
                 }
@@ -19301,7 +19776,7 @@
               "id": "BWiKN",
               "name": "Eyebrow",
               "fill": "#39e19eff",
-              "content": "04 / NEWSLETTER",
+              "content": "05 / NEWSLETTER",
               "fontFamily": "Roboto Mono",
               "fontSize": 11,
               "fontWeight": "500",
@@ -22598,7 +23073,7 @@
               "fill": "#3a4a3a",
               "textGrowth": "fixed-width",
               "width": "fill_container",
-              "content": "At millions of calls a day, the cracks in the classic voice stack show — and why I'm choosing less in 2026.",
+              "content": "At millions of calls a day, the cracks in the classic voice stack show, and why I'm choosing less in 2026.",
               "lineHeight": 1.5,
               "fontFamily": "Poppins",
               "fontSize": 14,
@@ -23547,7 +24022,7 @@
               "fill": "#3a4a3a",
               "textGrowth": "fixed-width",
               "width": "fill_container",
-              "content": "At millions of calls a day, the cracks in the classic voice stack show — and why I'm choosing less in 2026.",
+              "content": "At millions of calls a day, the cracks in the classic voice stack show, and why I'm choosing less in 2026.",
               "lineHeight": 1.5,
               "fontFamily": "Poppins",
               "fontSize": 14,
@@ -24135,7 +24610,7 @@
               "fill": "#053204",
               "textGrowth": "fixed-width",
               "width": "fill_container",
-              "content": "Ship voice without the legacy stack",
+              "content": "Voice AI, from the carrier edge to the LLM.",
               "lineHeight": 1.04,
               "fontFamily": "Poppins",
               "fontSize": 56,
@@ -24146,8 +24621,8 @@
               "type": "frame",
               "id": "OUq6r",
               "name": "sub-row",
+              "width": "fill_container",
               "gap": 12,
-              "alignItems": "center",
               "children": [
                 {
                   "type": "frame",
@@ -24163,9 +24638,11 @@
                   "id": "nxiwL",
                   "name": "subtitle",
                   "fill": "#27150c",
-                  "content": "Founder of Fonoster · creator of Routr",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Infrastructure by Fonoster. Proven on real calls, with real money on the line.",
                   "fontFamily": "Poppins",
-                  "fontSize": 23,
+                  "fontSize": 20,
                   "fontWeight": "600",
                   "letterSpacing": -0.3
                 }
@@ -24241,7 +24718,7 @@
                   "fill": "#053204",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "A roadmap for builders",
+                  "content": "A founder's roadmap",
                   "lineHeight": 1.1,
                   "fontFamily": "Poppins",
                   "fontSize": 22,
@@ -27493,7 +27970,7 @@
                   "fill": "#053204",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "A roadmap for builders",
+                  "content": "A founder's roadmap",
                   "lineHeight": 1.1,
                   "fontFamily": "Poppins",
                   "fontSize": 26,
@@ -27724,7 +28201,7 @@
               "fill": "#053204",
               "textGrowth": "fixed-width",
               "width": "fill_container",
-              "content": "Ship voice without the legacy stack",
+              "content": "I build Voice AI from the carrier edge to the LLM.",
               "lineHeight": 1.02,
               "fontFamily": "Poppins",
               "fontSize": 66,
@@ -27735,6 +28212,7 @@
               "type": "frame",
               "id": "LToru",
               "name": "sub-row",
+              "width": "fill_container",
               "gap": 12,
               "alignItems": "center",
               "children": [
@@ -27752,7 +28230,7 @@
                   "id": "UMmg7",
                   "name": "subtitle",
                   "fill": "#27150c",
-                  "content": "Founder of Fonoster · creator of Routr",
+                  "content": "Pedro Sanders · Founder & CEO, Fonoster",
                   "fontFamily": "Poppins",
                   "fontSize": 26,
                   "fontWeight": "600",
